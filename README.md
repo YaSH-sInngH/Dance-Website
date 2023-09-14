@@ -49,6 +49,7 @@ Open [http://localhost:8000](http://localhost:8000) on your browser to see the p
 #### Is it a fully functional website ?
 
 No it's not, it's a practice project for frontend development.
+
 It is based on Dance Academy, which is offering courses. 
 
 
