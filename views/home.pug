@@ -1,0 +1,65 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content 
+        
+    section#introsection
+      div  Welcome to Splash Dance Academy
+      div.small   “Dancing is silent poetry.” 
+    
+    section#objectivesection
+      h2 Our Objective
+      
+      div.card 
+        h3 Experts Attention
+        div.card-box
+          div.card-img
+            img(src="/static/img/1 .png")
+          div.card-content
+           p Our EXPERTS are the best in INDIA.
+           
+      div.card 
+        h3 Dancing Moves
+        div.card-box
+          div.card-img
+            img(src="/static/img/2.png")
+          div.card-content
+           p Every Type of DANCING MOVES you can PERFECT.
+
+      div.card 
+        h3 Dancing Exercises
+        div.card-box
+          div.card-img
+            img(src="/static/img/3.png")
+          div.card-content
+           p Exercises to FLEXIBLE your body and enhance your SKILLS.
+
+      div.card 
+        h3 Hip-Hop Style
+        div.card-box
+          div.card-img
+            img(src="/static/img/4.png")
+          div.card-content
+           p HIP-HOP Genre Dance Style you can PERFECT.
+
+      div.card 
+        h3 Bollywood Style
+        div.card-box
+          div.card-img
+            img(src="/static/img/5.png")
+          div.card-content
+           p BOLLYWOOD style dance you can PERFECT. 
+
+    section#sponsorsection
+      h2 Sponsored By
+      div#sponsors
+      img(src="/static/img/sponsor1.png", alt="Sponsor Image", class="spImage")
+      img(src="/static/img/sponsor5.png", alt="Sponsor Image", class="spImage1")
+      img(src="/static/img/sponsor3.png", alt="Sponsor Image", class="spImage")
+      img(src="/static/img/sponsor4.png", alt="Sponsor Image", class="spImage")
