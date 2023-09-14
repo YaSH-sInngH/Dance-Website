@@ -33,7 +33,7 @@ Start the server
 ```bash
   nodemon app.js
 ```
-
+Open [http://localhost:8000](http://localhost:8000) on your browser to see the project.
 
 ## Tech Stack
 
@@ -44,9 +44,10 @@ Start the server
 
 ###
 
-#### Is it a fully fledged website ?
+#### Is it a fully functional website ?
 
-No it's not, it's a practice website for frontend development.
+No it's not, it's a practice project for frontend development.
+It is based on Dance Academy, which is offering courses. 
 
 
 
