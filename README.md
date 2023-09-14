@@ -33,7 +33,9 @@ Start the server
 ```bash
   nodemon app.js
 ```
+
 Open [http://localhost:8000](http://localhost:8000) on your browser to see the project.
+
 
 ## Tech Stack
 
@@ -42,7 +44,7 @@ Open [http://localhost:8000](http://localhost:8000) on your browser to see the p
 **Server:** Node, Express
 
 
-###
+##
 
 #### Is it a fully functional website ?
 
